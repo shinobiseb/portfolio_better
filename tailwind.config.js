@@ -14,7 +14,6 @@ export default {
         'white' : '#fffcf2',
       },
       assets: {
-        'arrow' : 'url(https://pouch.jumpshare.com/preview/brFjsc61kW-krMesmRJZgZpUGsVmDj7YLQ7T3QBgVhkzbhcrh8CVhdkeO1Mu-8rKL9BoFa7pRGzl3y6s3NY2rVYLTTmLIZ6Wf1EYsB-2ugk)'
       },
     },
   },
