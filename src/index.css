@@ -82,16 +82,19 @@
     transition: 500ms;
 }
 
-#Main-div:hover {
-    background-color: rgb(255, 115, 0);
-}
-
 #Sidebar-list {
     font-weight: 500;
     transition: 250ms;
 }
 
-.sidebar-item {
-    transform: translate(.25em);
-    transition: 100ms;
+@media (min-width: 756px) {
+    .sidebar-item {
+        transform: translate(.25em);
+        transition: 100ms;
+    }
+}
+
+@media (orientation: portrait) {
+    .hero-img {
+    }
 }
