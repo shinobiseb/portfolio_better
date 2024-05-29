@@ -30,17 +30,18 @@ export default function Sidebar() {
   };
 
   return (
-    <div className='z-20 h-full w-2/3 sm:w-1/2 bg-orange' id='Sidebar'>
-      <ul id='Sidebar-list' className='flex flex-col justify-around h-full text-right ml-4 py-4'>
-        <div className='sidebar-header text-black flex flex-col justify-between h-20 mt-4 pr-5'>
-          <h3 className='sidebar-header text-xl md:text-4xl'>Ney Sebastian Patin III</h3>
-          <h4 className='sidebar-header text-xl md:text-3xl'>Software Engineer</h4>
+    <div className='z-20 flex flex-col justify-around h-full w-2/3 sm:w-1/2 bg-orange' id='Sidebar'>
+      <div id='Sidebar-list' className='flex flex-col justify-around h-full text-right pr-5'>
+        <div className='sidebar-header text-black flex flex-col h-20 mt-4'>
+          <h3 className='text-2xl md:text-4xl'>Ney Sebastian Patin III</h3>
+          <h4 className='text-2xl md:text-3xl'>Software Engineer</h4>
         </div>
         
+        <ul className='flex flex-col justify-evenly w-full h-3/5'>
         {sidebarArr.map((item) => (
           <a 
             key={item.key} 
-            className='sidebar-item text-black cursor-pointer text-2xl sm:text-7xl lg:text-9xl pr-5' 
+            className='sidebar-item text-black cursor-pointer text-2xl sm:text-7xl lg:text-9xl' 
             onMouseOver={() => handleMouseOver(item.key)} 
             onMouseOut={() => handleMouseOut(item.key)}
             ref={(element) => (itemRefs.current[item.key] = element)}
@@ -49,7 +50,8 @@ export default function Sidebar() {
             {item.name}
           </a>
         ))}
-      </ul>
+        </ul>
+      </div>
     </div>
   );
 }
