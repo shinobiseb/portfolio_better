@@ -85,7 +85,6 @@
 #Main-div {
     transition: 500ms;
 }
-
 /* ----------------- SIDEBAR -------------------- */
 
 #Sidebar-list {
@@ -119,4 +118,7 @@
     transition: 50ms;
 }
 
+div {
+    clip-path: polygon(0 0, 0 100%, calc(100% - 20px) 100%, 100% calc(100% - 20px), 100% 0);
+}
 /* ----------------- QUERIES -------------------- */

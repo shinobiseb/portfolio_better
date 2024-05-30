@@ -1,6 +1,7 @@
 import React from 'react'
+import Project from './Project';
 
-interface projectType {
+export interface projectInfoType {
     title: string;
     desc: string;
     link: string;
@@ -9,7 +10,10 @@ interface projectType {
     tags: Array<string> | Array<null>;
 }
 
-export default function ProjectPage( projectInfo : projectType ) {
+export default function ProjectPage( projectInfo : projectInfoType ) {
+
+    console.log(Project)
+
   return (
     <div className='flex flex-row justify-between bg-lightgray w-5/6 h-5/6 p-3 z-10'>
         <div className="flex flex-col project-page-info-divh-full w-1/2 p-5">
