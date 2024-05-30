@@ -97,6 +97,16 @@
     transition: 200ms;
 }
 
+/* ----------------- PROJECT LIST -------------------- */
+
+.project-div {
+    clip-path: polygon(0 0, 0 100%, calc(100% - 20px) 100%, 100% calc(100% - 20px), 100% 0);
+}
+
+.project-tag {
+    padding: 5px 15px;
+    background-color: #fffcf2;
+    clip-path: polygon(0px 0px, 0px calc(100% - 10px), 10px 100%, 100% 100%, 100% 10px, calc(100% - 10px) 0px)
+}
 
 /* ----------------- QUERIES -------------------- */
-
