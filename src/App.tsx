@@ -79,6 +79,7 @@ const projects: ProjectInfo[] = [
 
 function App() {
   return (
+    <div id='App' className="h-screen bg-gray flex flex-row justify-center items-center">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/projects" element={<ProjectList/>} />
@@ -90,6 +91,7 @@ function App() {
           />
         ))}
       </Routes>
+    </div>
   );
 }
 
