@@ -27,15 +27,19 @@ interface ProjectInfo {
   tags: string[];
 }
 
-// Define projects object with correct type
+// IMAGES: 1204 X 768
 const projects: ProjectInfo[] = [
   {
     name: 'superhero',
     title: 'Superhero Quiz',
     desc: 'A fullstack browser game aesthetically designed utilizing a custom superhero Api',
     link: 'https://vibrant-swanson-4dbce0.netlify.app/',
-    notes: ['Built with JavaScript and API', 'Responsive design', 'Multiple levels'],
-    img: 'path/to/superhero-quiz-image.jpg',
+    notes: [
+      'Built with JavaScript and API', 
+      'Responsive design', 
+      'Multiple levels',
+  ],
+    img: 'https://api.pikwy.com/web/6658ef5cceebe410c326a80e.jpg',
     tags: ['API', 'Javascript', 'full stack']
   },
   {

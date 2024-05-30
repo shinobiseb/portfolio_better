@@ -15,10 +15,10 @@ export default function ProjectPage( projectInfo : projectInfoType ) {
     console.log(Project)
 
   return (
-    <div className='flex flex-row justify-between bg-lightgray w-5/6 h-5/6 p-3 z-10'>
+    <div className='flex flex-row justify-between bg-orange w-5/6 p-3 z-10 border border-black'>
         <div className="flex flex-col project-page-info-divh-full w-1/2 p-5">
             <img className='w-full' src={projectInfo.img} alt="" />
-            <ul className='flex flex-row justify-between w-full mt-5'>
+            <ul className='flex flex-row justify-evenly w-3/4 mt-5 italic'>
                 <li className='project-tag capitalize'>
                     {projectInfo.tags[0]}
                 </li>
@@ -33,16 +33,16 @@ export default function ProjectPage( projectInfo : projectInfoType ) {
 
         <div className="flex flex-col project-page-info-div h-full w-1/2 p-5">
             <h2 className='uppercase text-4xl'>{projectInfo.title}</h2>
-            <div className="mt-2 project-info sm:h-2/3 flex flex-col justify-between">
-                <p className=''>
+            <div className="mt-2 project-info sm:h-2/3 flex flex-col justify-around">
+                <p className='text-xl'>
                     {projectInfo.desc}
                 </p>
-                <ul className='pl-4 list-disc '>
+                <ul className='pl-4 list-disc text-lg'>
                     <li>{projectInfo.notes[0]}</li>
                     <li>{projectInfo.notes[1]}</li>
                     <li>{projectInfo.notes[2]}</li>
                 </ul>
-                <a href={projectInfo.link} className='p-2 w-20 flex items-center justify-center bg-yellow-500 link-button'>
+                <a target='_blank' href={projectInfo.link} className='p-2 w-20 flex items-center justify-center bg-yellow-500 link-button'>
                     LINK_
                 </a>
             </div>
