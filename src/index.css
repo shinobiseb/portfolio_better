@@ -75,8 +75,8 @@
 
 .arrow {
     clip-path: polygon(100% 0, 100% 25%, 25% 25%, 25% 100%, 0 100%, 0 0);    height: 10em;
-    width: 4em;
-    height: 4em;
+    width: 2em;
+    height: 2em;
 }
 
 
@@ -101,6 +101,11 @@
 
 .project-div {
     clip-path: polygon(0 0, 0 100%, calc(100% - 20px) 100%, 100% calc(100% - 20px), 100% 0);
+}
+
+.project-div:hover {
+    transition: 200ms;
+    background-color: rgba(0, 26, 255, 0.062);
 }
 
 .project-tag {
