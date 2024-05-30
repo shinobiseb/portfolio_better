@@ -11,12 +11,12 @@ const projectArray = [
 
 export default function ProjectList() {
   return (
-    <div className='z-10 flex flex-col h-5/6 text-gray bg-lightgray w-5/6 overflow-hidden max-w-7xl p-2'>
+    <section className='clip z-10 flex flex-col h-4/6 text-gray bg-lightgray w-5/6 overflow-y-auto max-w-7xl p-2'>
       {
         projectArray.map((project, index) => (
           <Project key={index} title={project.title} tags={project.tags} />
         ))
       }
-    </div>
+    </section>
   )
 }

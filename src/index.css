@@ -80,11 +80,17 @@
 }
 
 
+
 /* ----------------- MAIN -------------------- */
 
 #Main-div {
     transition: 500ms;
 }
+
+/* ----------------- SCROLLBAR -------------------- */
+
+
+
 /* ----------------- SIDEBAR -------------------- */
 
 #Sidebar-list {
@@ -104,7 +110,8 @@
 
 .project-div:hover {
     transition: 200ms;
-    background-color: rgba(0, 26, 255, 0.062);
+    background-color: rgb(255, 120, 42);
+    translate: -5px;
 }
 
 .project-tag {
@@ -118,7 +125,8 @@
     transition: 50ms;
 }
 
-div {
+.clip {
     clip-path: polygon(0 0, 0 100%, calc(100% - 20px) 100%, 100% calc(100% - 20px), 100% 0);
 }
+
 /* ----------------- QUERIES -------------------- */
