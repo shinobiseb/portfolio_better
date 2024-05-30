@@ -5,9 +5,9 @@ interface ItemRefsType {
 }
 
 const sidebarArr = [
-  { name: 'PROJECTS', key: 0, href: '#Projects' },
-  { name: 'ABOUT', key: 1, href: '#About' },
-  { name: 'CONTACT', key: 2, href: '#Contact' }
+  { name: 'PROJECTS', key: 0, href: 'Projects' },
+  { name: 'ABOUT', key: 1, href: 'About' },
+  { name: 'CONTACT', key: 2, href: 'Contact' }
 ];
 
 export default function Sidebar() {

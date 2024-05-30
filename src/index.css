@@ -114,4 +114,9 @@
     clip-path: polygon(0px 0px, 0px calc(100% - 10px), 10px 100%, 100% 100%, 100% 10px, calc(100% - 10px) 0px)
 }
 
+.link-button:hover {
+    background-color: #fffcf2;
+    transition: 50ms;
+}
+
 /* ----------------- QUERIES -------------------- */
