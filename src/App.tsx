@@ -1,20 +1,9 @@
-import Sidebar from "./components/Sidebar"
-import Contact from "./components/Contact"
+
 import ProjectList from "./components/ProjectList"
-import Decals from "./components/Decals"
 import About from "./components/About"
 import Home from "./components/Home"
 import ProjectPage from "./components/ProjectPage"
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-
-function titleNoSpace( title : string ) {
-  if([title.includes(' ')]) {
-    return ( title.split(' ')[0] )
-  }
-  else {
-    return title
-  }
-}
+import { BrowserRouter as Routes, Route } from 'react-router-dom';
 
 // Define the type for project information
 interface ProjectInfo {
