@@ -1,6 +1,7 @@
 import React from 'react'
 import Project from './Project';
 import Decals from './Decals';
+import BackButton from './BackButton';
 
 export interface projectInfoType {
     title: string;
@@ -16,7 +17,7 @@ export default function ProjectPage( projectInfo : projectInfoType ) {
     console.log(Project)
 
   return (
-    <>
+    <div className='flex flex-col h-full w-full justify-center items-center'>
         <main id='project-div' className='clip flex flex-row justify-between bg-orange w-5/6 p-3 z-10 border border-black'>
             <div className="flex flex-col project-page-info-divh-full w-1/2 p-5">
                 <img className='w-full' src={projectInfo.img} alt="" />
@@ -50,7 +51,8 @@ export default function ProjectPage( projectInfo : projectInfoType ) {
                 </div>
             </section>
         </main>
+        <BackButton/>
         <Decals/>
-    </>
+    </div>
   )
 }
