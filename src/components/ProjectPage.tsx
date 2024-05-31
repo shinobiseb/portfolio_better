@@ -1,5 +1,6 @@
 import React from 'react'
 import Project from './Project';
+import Decals from './Decals';
 
 export interface projectInfoType {
     title: string;
@@ -47,6 +48,7 @@ export default function ProjectPage( projectInfo : projectInfoType ) {
                 </a>
             </div>
         </section>
+        <Decals/>
     </main>
   )
 }

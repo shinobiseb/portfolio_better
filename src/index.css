@@ -88,6 +88,10 @@
     transition: 500ms;
 }
 
+.back-button {
+    transition: 70ms;
+}
+
 /* ----------------- SCROLLBAR -------------------- */
 
 
