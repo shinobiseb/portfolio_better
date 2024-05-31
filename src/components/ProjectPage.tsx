@@ -1,4 +1,4 @@
-import React from 'react'
+
 import Project from './Project';
 import Decals from './Decals';
 import BackButton from './BackButton';
@@ -19,7 +19,7 @@ export default function ProjectPage( projectInfo : projectInfoType ) {
   return (
     <div className='flex flex-col h-full w-full justify-center items-center'>
         <main id='project-div' className='clip flex flex-row justify-between bg-orange w-5/6 p-3 z-10 border border-black'>
-            <div className="flex flex-col project-page-info-divh-full w-1/2 p-5">
+            <div className="flex flex-col project-page-info-div h-full w-1/2 p-5">
                 <img className='w-full' src={projectInfo.img} alt="" />
                 <ul className='flex flex-row justify-evenly w-3/4 mt-5 italic'>
                     <li className='project-tag capitalize'>
@@ -36,14 +36,14 @@ export default function ProjectPage( projectInfo : projectInfoType ) {
 
             <section className="flex flex-col project-page-info-div h-full w-1/2 p-5">
                 <h2 className='uppercase text-4xl'>{projectInfo.title}</h2>
-                <div className="mt-2 project-info sm:h-2/3 flex flex-col justify-around">
+                <div className="mt-2 project-info h-full sm:h-3/4 flex flex-col justify-around">
                     <p className='text-xl'>
                         {projectInfo.desc}
                     </p>
                     <ul className='pl-4 list-disc text-lg'>
-                        <li>{projectInfo.notes[0]}</li>
-                        <li>{projectInfo.notes[1]}</li>
-                        <li>{projectInfo.notes[2]}</li>
+                        {projectInfo.notes[0] && <li>{projectInfo.notes[0]}</li>}
+                        {projectInfo.notes[1] && <li>{projectInfo.notes[1]}</li>}
+                        {projectInfo.notes[2] && <li>{projectInfo.notes[2]}</li>}
                     </ul>
                     <a target='_blank' href={projectInfo.link} className='mt-2 p-2 w-20 flex items-center justify-center bg-yellow-500 link-button'>
                         LINK_

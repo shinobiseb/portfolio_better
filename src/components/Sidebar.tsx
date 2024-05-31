@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import { useRef } from 'react';
 
 interface ItemRefsType {
   [key: number]: HTMLAnchorElement | null;
@@ -7,7 +7,7 @@ interface ItemRefsType {
 const sidebarArr = [
   { name: 'PROJECTS', key: 0, href: 'projects' },
   { name: 'ABOUT', key: 1, href: 'about' },
-  { name: 'CONTACT', key: 2, href: 'contact' }
+  // { name: 'CONTACT', key: 2, href: 'contact' }
 ];
 
 export default function Sidebar() {
@@ -52,6 +52,7 @@ export default function Sidebar() {
         ))}
         </ul>
       </div>
+      <span className='text-gray text-right pr-5'>Site by me!</span>
     </div>
   );
 }

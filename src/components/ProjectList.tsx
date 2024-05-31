@@ -1,4 +1,4 @@
-import React from 'react'
+
 import Project from './Project'
 import BackButton from './BackButton'
 import Decals from './Decals'
@@ -20,6 +20,7 @@ export default function ProjectList() {
             <Project key={index} title={project.title} tags={project.tags} />
           ))
         }
+        <span className='text-center mt-3 italic text-gray'> * Some sites' backend servers may be temporarily unavailable due to pricing fluctuations.*</span>
       </section>
       <Decals/>
       <BackButton/>

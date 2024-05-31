@@ -1,4 +1,3 @@
-import React from 'react'
 import Decals from './Decals'
 import BackButton from './BackButton'
 
