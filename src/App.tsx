@@ -89,7 +89,7 @@ const projects: ProjectInfo[] = [
       'Empowers users to create, edit, and remove custom and existing amiibos with ease',
       'Utilizes modern web technologies like React, Node.js, Express, and MongoDB for efficient data management'
     ],
-    img: 'https://example.com/myamiibo-image.jpg',
+    img: 'https://api.pikwy.com/web/66596dadab06f231a9659074.jpg',
     tags: ['CRUD', 'React', 'Express', 'MongoDB']
   },  
 ];
