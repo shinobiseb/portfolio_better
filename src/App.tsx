@@ -80,6 +80,18 @@ const projects: ProjectInfo[] = [
     img: 'https://api.pikwy.com/web/665969e006ada4727678c297.jpg',
     tags: ['SASS/CSS', 'typescript', 'front end']
   },
+  {
+    name: 'myamiibo',
+    title: 'MyAmiibo',
+    desc: 'A CRUD app for managing custom and existing amiibos, offering a seamless user experience.',
+    link: 'https://tender-pike-ddd522.netlify.app/',
+    notes: [
+      'Empowers users to create, edit, and remove custom and existing amiibos with ease',
+      'Utilizes modern web technologies like React, Node.js, Express, and MongoDB for efficient data management'
+    ],
+    img: 'https://example.com/myamiibo-image.jpg',
+    tags: ['CRUD', 'React', 'Express', 'MongoDB']
+  },  
 ];
 
 
