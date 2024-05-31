@@ -1,5 +1,6 @@
 import React from 'react'
 import Project from './Project'
+import BackButton from './BackButton'
 
 const projectArray = [
   { title: 'Superhero Quiz', tags: ['API', 'Javascript', 'full stack'] },
@@ -17,6 +18,7 @@ export default function ProjectList() {
           <Project key={index} title={project.title} tags={project.tags} />
         ))
       }
+      <BackButton/>
     </section>
   )
 }

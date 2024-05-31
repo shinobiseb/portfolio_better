@@ -74,9 +74,10 @@
 }
 
 .arrow {
-    clip-path: polygon(100% 0, 100% 25%, 25% 25%, 25% 100%, 0 100%, 0 0);    height: 10em;
-    width: 2em;
-    height: 2em;
+    clip-path: polygon(100% 0, 100% 25%, 25% 25%, 25% 100%, 0 100%, 0 0);    
+    aspect-ratio: 1/1;
+    /* width: 2em;
+    height: 2em; */
 }
 
 

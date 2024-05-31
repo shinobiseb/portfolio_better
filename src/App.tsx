@@ -94,6 +94,7 @@ function App() {
             element={<ProjectPage title={project.title} desc={project.desc} link={project.link} notes={project.notes} img={project.img} tags={project.tags} />}
           />
         ))}
+        <Route path='/about' element={<About/>}/>
       </Routes>
     </main>
   );
