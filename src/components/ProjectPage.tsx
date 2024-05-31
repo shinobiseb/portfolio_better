@@ -21,7 +21,7 @@ export default function ProjectPage( projectInfo : projectInfoType ) {
         <main id='project-div' className='clip flex flex-row justify-between bg-orange w-5/6 p-3 z-10 border border-black'>
             <div className="flex flex-col project-page-info-div h-full w-1/2 p-5">
                 <img className='w-full' src={projectInfo.img} alt="" />
-                <ul className='flex flex-row justify-evenly w-3/4 mt-5 italic'>
+                <ul className='flex flex-row justify-evenly w-full mt-5 italic'>
                     <li className='project-tag capitalize'>
                         {projectInfo.tags[0]}
                     </li>
