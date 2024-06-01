@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
 import Modal from './Modal';
 import Project from './Project';
 import BackButton from './BackButton';
 import Decals from './Decals';
 import { projects } from '../App';
+import { useState } from 'react';
 
 const projectArray = [
   { title: 'Superhero Quiz', tags: ['API', 'Javascript', 'full stack'] },
