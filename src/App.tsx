@@ -3,7 +3,6 @@ import { Routes, Route } from 'react-router-dom';
 import ProjectList from "./components/ProjectList";
 import About from "./components/About";
 import Home from "./components/Home";
-import ProjectPage from "./components/ProjectPage";
 
 // Define the type for project information
 interface ProjectInfo {
@@ -17,7 +16,7 @@ interface ProjectInfo {
 }
 
 // IMAGES: 1204 X 768
-const projects: ProjectInfo[] = [
+export const projects: ProjectInfo[] = [
   {
     name: 'superhero',
     title: 'Superhero Quiz',
@@ -89,13 +88,6 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/projects" element={<ProjectList />} />
-        {projects.map(project => (
-          <Route
-            key={project.name}
-            path={`/projects/${project.name}`}
-            element={<ProjectPage title={project.title} desc={project.desc} link={project.link} notes={project.notes} img={project.img} tags={project.tags} />}
-          />
-        ))}
         <Route path='/about' element={<About />} />
       </Routes>
     </main>

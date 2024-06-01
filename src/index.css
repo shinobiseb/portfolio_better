@@ -90,8 +90,11 @@
     transition: 70ms;
 }
 
-/* ----------------- SCROLLBAR -------------------- */
+/* ----------------- MODAL -------------------- */
 
+.modal-bg {
+    background-color: #fffcf280;
+}
 
 
 /* ----------------- SIDEBAR -------------------- */
@@ -117,9 +120,7 @@
     translate: -5px;
 }
 
-.project-tag {
-    padding: 5px 15px;
-    background-color: #fffcf2;
+.small-clip {
     clip-path: polygon(0px 0px, 0px calc(100% - 10px), 10px 100%, 100% 100%, 100% 10px, calc(100% - 10px) 0px)
 }
 
