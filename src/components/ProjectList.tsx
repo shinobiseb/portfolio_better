@@ -11,6 +11,7 @@ const projectArray = [
   { title: 'Client Portfolio', tags: ['react', 'UI/UX', 'front end'] },
   { title: 'Goatwriting', tags: ['CRUD', 'mongoDB', 'typescript'] },
   { title: 'Spotify clone', tags: ['SASS/CSS', 'typescript', 'front end'] },
+  { title: 'Simple Time Calculator', tags: ['Utility', 'HTML/CSS', 'Simple'] },
 ];
 
 export default function ProjectList() {
