@@ -69,16 +69,16 @@ export const projects: ProjectInfo[] = [
     tags: ['SASS/CSS', 'typescript', 'front end']
   },
   {
-    name: 'myamiibo',
-    title: 'MyAmiibo',
-    desc: 'A CRUD app for managing custom and existing amiibos, offering a seamless user experience.',
-    link: 'https://tender-pike-ddd522.netlify.app/',
+    name: 'timeCalculator',
+    title: 'Simple Time Calculator',
+    desc: 'An extremely Simple utility created for Time calculation',
+    link: 'https://simple-time-calculator.netlify.app/',
     notes: [
       'Empowers users to create, edit, and remove custom and existing amiibos with ease',
       'Utilizes modern web technologies like React, Node.js, Express, and MongoDB for efficient data management'
     ],
-    img: 'https://api.pikwy.com/web/66596dadab06f231a9659074.jpg',
-    tags: ['CRUD', 'React', 'Express', 'MongoDB']
+    img: 'https://api.pikwy.com/web/66711e3255dc537baf2b2c0c.jpg',
+    tags: ['Misc.', 'Utility', 'HTML/CSS', 'JavaScript']
   },
 ];
 
