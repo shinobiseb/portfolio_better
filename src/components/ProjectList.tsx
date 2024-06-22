@@ -2,8 +2,8 @@ import Modal from './Modal';
 import Project from './Project';
 import BackButton from './BackButton';
 import Decals from './Decals';
-import { projects } from '../App';
 import { useState } from 'react';
+import { projects } from '../assets/fonts/projectinfo';
 
 const projectArray = [
   { title: 'Superhero Quiz', tags: ['API', 'Javascript', 'full stack'] },

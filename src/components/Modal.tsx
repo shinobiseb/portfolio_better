@@ -1,15 +1,5 @@
 import React from "react";
-
-export interface ProjectInfoType {
-    title: string;
-    desc: string;
-    link: string;
-    notes: Array<string>;
-    img: string;
-    tags: Array<string> | Array<null>;
-    show: boolean;
-    setShow: any;
-}
+import { ProjectInfoType } from "../assets/fonts/types";
 
 const Modal: React.FC<{ projectInfo: ProjectInfoType }> = ({ projectInfo }) => {
     if (!projectInfo.show) return null;
@@ -17,7 +7,7 @@ const Modal: React.FC<{ projectInfo: ProjectInfoType }> = ({ projectInfo }) => {
     return (
         <div id="Modal-bg" onClick={()=> projectInfo.setShow(false)} className='w-full h-full overflow-hidden absolute flex modal-bg z-40 justify-center'>
             <div className='modal-div flex flex-col-reverse h-full w-full justify-center self-center items-center'>
-                <main id='project-div' className='clip flex flex-col-reverse sm:flex-row flex- justify-between bg-orange h-5/6 w-5/6 sm:w-5/6 sm:p-3 z-10 '>
+                <main id='project-div' className='clip flex flex-col-reverse sm:flex-row flex- justify-between bg-orange h-1/2 w-5/6 sm:w-5/6 sm:p-3 z-10 '>
                     <div className="flex flex-col h-full w-full sm:w-1/2 p-3">
                         <img className='w-full sm:w-full' src={projectInfo.img} alt="" />
                         <ul className='flex flex-row justify-between sm:justify-evenly w-full pt-2 italic'>

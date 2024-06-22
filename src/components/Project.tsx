@@ -1,9 +1,4 @@
-
-
-interface projectProps {
-    title : string;
-    tags: Array<string>;
-}
+import { projectProps } from "../assets/fonts/types"
 
 export default function Project( props : projectProps ) {
 

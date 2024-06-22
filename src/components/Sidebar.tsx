@@ -1,14 +1,6 @@
 import { useRef } from 'react';
-
-interface ItemRefsType {
-  [key: number]: HTMLAnchorElement | null;
-}
-
-const sidebarArr = [
-  { name: 'PROJECTS', key: 0, href: 'projects' },
-  { name: 'ABOUT', key: 1, href: 'about' },
-  // { name: 'CONTACT', key: 2, href: 'contact' }
-];
+import { ItemRefsType } from '../assets/fonts/types';
+import { sidebarArr } from '../assets/fonts/projectinfo';
 
 export default function Sidebar() {
   const itemRefs = useRef<ItemRefsType>({});
@@ -30,7 +22,7 @@ export default function Sidebar() {
   };
 
   return (
-    <div className='z-20 flex flex-col justify-center sm:justify-end h-full w-full md:w-1/2 bg-orange overflow-hidden' id='Sidebar'>
+    <div className='z-20 flex flex-col justify-center md:justify-end h-full w-full md:w-1/2 bg-orange overflow-hidden' id='Sidebar'>
       <div id='Sidebar-list' className='flex flex-col justify-around items-center h-full w-full text-right sm:pr-5'>
         <div className='sidebar-header text-black flex flex-col w-full h-20 mt-4 items-center md:justify-right sm:items-end'>
           <h3 className='text-2xl md:text-4xl '>Ney Sebastian Patin III</h3>
