@@ -12,6 +12,7 @@ const projectArray = [
   { title: 'Goatwriting', tags: ['CRUD', 'mongoDB', 'typescript'] },
   { title: 'Spotify clone', tags: ['SASS/CSS', 'typescript', 'front end'] },
   { title: 'Simple Time Calculator', tags: ['Utility', 'HTML/CSS', 'Simple'] },
+  { title: 'listConductor App', tags: ['React', 'Front End', 'TypeScript'] },
 ];
 
 export default function ProjectList() {

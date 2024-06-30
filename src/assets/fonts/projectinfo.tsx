@@ -71,4 +71,17 @@ export const projects: ProjectInfo[] = [
       img: 'https://api.pikwy.com/web/66711e3255dc537baf2b2c0c.jpg',
       tags: ['Misc.', 'Utility', 'HTML/CSS', 'JavaScript']
     },
+    {
+      name: 'listConductor',
+      title: 'listConductor',
+      desc: 'A convenient application for creating and managing music playlists, storing them locally, and integrating with the Spotify API.',
+      link: 'https://shinobiseb.github.io/frontend_listConductor/',
+      notes: [
+        'Integrates with the Spotify API to fetch and add music tracks to playlists',
+        'Stores playlists in local storage for persistent access',
+        'Built using modern web technologies like React, TypeScript, Vite, and localStorage for seamless performance'
+      ],
+      img: 'https://api.pikwy.com/web/668199e7c44d301c6c446908.jpg',
+      tags: ['TypeScript', 'Front End', 'API']
+    },
   ];

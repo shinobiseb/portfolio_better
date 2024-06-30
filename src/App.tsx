@@ -1,4 +1,4 @@
-import { ProjectInfo } from './assets/fonts/types';
+
 import { Routes, Route } from 'react-router-dom';
 import ProjectList from "./components/ProjectList";
 import About from "./components/About";
