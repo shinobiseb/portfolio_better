@@ -22,10 +22,10 @@ export default function About() {
                 <h4 className='font-medium'>Software Engineering Immersive, General Assembly (2021)</h4>
                 <ul className='mt-1 pl-5 list-disc'>
                   <li className=''>
-                    <span className='font-semibold'>Front-End Development:</span> HTML, CSS, JavaScript, React.
+                    <span className='font-semibold'>Front-End Development:</span> Typescript, JavaScript, React.js, HTML/CSS
                   </li>
                   <li className=''>
-                    <span className='font-semibold'>Back-End Development:</span> Node.js, Express, MongoDB.
+                    <span className='font-semibold'>Back-End Development:</span> Node.js, Express, MongoDB, Heroku
                   </li>
                   <li className=''>
                     <span className='font-semibold'>Software Development Lifecycle:</span> Agile methodologies, Git, CI/CD.
