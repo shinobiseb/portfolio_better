@@ -1,5 +1,5 @@
 import React from "react";
-import { ProjectInfoType } from "../assets/fonts/types";
+import { ProjectInfoType } from "../assets/types";
 
 const Modal: React.FC<{ projectInfo: ProjectInfoType }> = ({ projectInfo }) => {
     if (!projectInfo.show) return null;

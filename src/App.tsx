@@ -10,7 +10,7 @@ function App() {
     <main id='App' className="h-screen bg-gray flex flex-row justify-center items-center">
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/projects" element={<ProjectList />} />
+        <Route path="/projects" element={<ProjectList/>} />
         <Route path='/about' element={<About />} />
       </Routes>
     </main>

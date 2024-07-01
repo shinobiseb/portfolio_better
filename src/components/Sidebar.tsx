@@ -1,6 +1,6 @@
 import { useRef } from 'react';
-import { ItemRefsType } from '../assets/fonts/types';
-import { sidebarArr } from '../assets/fonts/projectinfo';
+import { ItemRefsType } from '../assets/types';
+import { sidebarArr } from '../assets/projectinfo';
 
 export default function Sidebar() {
   const itemRefs = useRef<ItemRefsType>({});

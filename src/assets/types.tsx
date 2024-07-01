@@ -24,7 +24,7 @@ export interface ProjectInfoType {
     link: string;
     notes: Array<string>;
     img: string;
-    tags: Array<string> | Array<null>;
+    tags: Array<string>;
     show: boolean;
     setShow: any;
 }

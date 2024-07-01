@@ -1,4 +1,4 @@
-import { projectProps } from "../assets/fonts/types"
+import { projectProps } from "../assets/types"
 
 export default function Project( props : projectProps ) {
 
