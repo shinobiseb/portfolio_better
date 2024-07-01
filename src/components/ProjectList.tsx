@@ -1,8 +1,6 @@
-
 import Project from './Project';
 import BackButton from './BackButton';
 import Decals from './Decals';
-import { useState } from 'react';
 import { ProjectInfo } from '../assets/types';
 import { projects } from '../assets/projectinfo';
 
