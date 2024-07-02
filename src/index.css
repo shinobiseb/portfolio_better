@@ -116,7 +116,7 @@
 
 .project-div:hover {
     transition: 200ms;
-    background-color: rgb(255, 120, 42);
+    background-color: #ffba08;
     translate: -5px;
 }
 
