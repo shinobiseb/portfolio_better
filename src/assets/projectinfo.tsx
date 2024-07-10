@@ -4,7 +4,7 @@ export const sidebarArr = [
     { name: 'PROJECTS', key: 0, href: 'projects' },
     { name: 'ABOUT', key: 1, href: 'about' },
     // { name: 'CONTACT', key: 2, href: 'contact' }
-  ];
+];
 
 // IMAGES: 1204 X 768
 export const projects: ProjectInfo[] = [
@@ -19,7 +19,8 @@ export const projects: ProjectInfo[] = [
       'Built using modern web technologies like React, TypeScript, Vite, and localStorage for seamless performance'
     ],
     img: 'https://api.pikwy.com/web/668199e7c44d301c6c446908.jpg',
-    tags: ['API', 'Front End', 'TypeScript']
+    tags: ['API', 'Front End', 'TypeScript'],
+    misc: false
   },
   {
     name: 'superhero',
@@ -31,7 +32,8 @@ export const projects: ProjectInfo[] = [
       'Utilized jQuery, HTML/CSS, and JavaScript to deliver a seamless frontend and backend experience',
     ],
     img: 'https://api.pikwy.com/web/6658ef5cceebe410c326a80e.jpg',
-    tags: ['API', 'full stack', 'Javascript']
+    tags: ['API', 'full stack', 'Javascript'],
+    misc: false
   },
   {
     name: 'spotify',
@@ -43,7 +45,8 @@ export const projects: ProjectInfo[] = [
       'Developed the application using TypeScript, React, and SASS/CSS',
     ],
     img: 'https://api.pikwy.com/web/665969e006ada4727678c297.jpg',
-    tags: ['front end', 'SASS/CSS', 'typescript']
+    tags: ['front end', 'SASS/CSS', 'typescript'],
+    misc: true
   },
   {
     name: 'client',
@@ -52,7 +55,8 @@ export const projects: ProjectInfo[] = [
     link: 'https://mika-portfolio-2jop-c3xuyvh7y-shinobisebs-projects.vercel.app/',
     notes: ['Developed using React, JavaScript, and TailwindCSS, the website ensures accessibility with responsive design, making it usable for all visitors.'],
     img: 'https://api.pikwy.com/web/665967ead598366e0e0996c1.jpg',
-    tags: ['front end', 'react', 'UI/UX']
+    tags: ['front end', 'react', 'UI/UX'],
+    misc: false
   },
   {
     name: 'goatwriting',
@@ -61,7 +65,8 @@ export const projects: ProjectInfo[] = [
     link: 'https://relaxed-joliot-33c743.netlify.app/',
     notes: ['Orchestrated a streamlined workflow to enhance user selection and deselection of titles', 'Developed the application using TypeScript, React, SCSS/CSS, Express, and MongoDB'],
     img: 'https://api.pikwy.com/web/665969b8ceebe410c326a912.jpg',
-    tags: ['CRUD', 'mongoDB', 'typescript']
+    tags: ['CRUD', 'mongoDB', 'typescript'],
+    misc: false
   },
   {
     name: 'meditracker',
@@ -73,7 +78,8 @@ export const projects: ProjectInfo[] = [
       'Devised and implemented strategies to improve accessibility, minimize visual clutter, and enhance user journey'
     ],
     img: 'https://api.pikwy.com/web/66596752a5b41b1ffe3462f7.jpg',
-    tags: ['full stack', 'Masonite', 'Rest api']
+    tags: ['full stack', 'Masonite', 'Rest api'],
+    misc: false
   },
   {
     name: 'timeCalculator',
@@ -85,6 +91,7 @@ export const projects: ProjectInfo[] = [
       'Utilizes modern web technologies like React, Node.js, Express, and MongoDB for efficient data management'
     ],
     img: 'https://api.pikwy.com/web/66711e3255dc537baf2b2c0c.jpg',
-    tags: ['HTML/CSS', 'JavaScript', 'Misc.', 'Utility']
-  }
+    tags: ['HTML/CSS', 'JavaScript', 'Misc.', 'Utility'],
+    misc: true
+  },
 ];

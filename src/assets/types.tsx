@@ -6,6 +6,7 @@ export interface ProjectInfo {
     notes: string[];
     img: string;
     tags: string[];
+    misc: boolean;
 }
 
 
@@ -16,6 +17,7 @@ export interface ItemRefsType {
 export interface projectProps {
     title : string;
     tags: Array<string>;
+    misc: boolean
 }
 
 export interface ProjectInfoType {

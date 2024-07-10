@@ -2,7 +2,7 @@
 export default function BackButton() {
 
   return (
-    <div onClick={() =>  history.back()} className='z-20 back-button p-2 flex h-1 sm:h-8 items-center pl-3 mt-4 overflow-hidden cursor-pointer hover:bg-black'>
+    <div onClick={() =>  history.back()} className='z-20 back-button p-2 flex h-1 sm:h-8 items-center pl-3 mt-4 overflow-hidden cursor-pointer hover:bg-orange'>
         <div className='arrow bg-white -rotate-45 h-2 sm:h-8'></div>
         <div className='arrow bg-white -rotate-45 h-2 sm:h-8'></div>
         <div className='arrow bg-white -rotate-45 h-2 sm:h-8'></div>
