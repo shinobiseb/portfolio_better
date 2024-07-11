@@ -94,4 +94,17 @@ export const projects: ProjectInfo[] = [
     tags: ['HTML/CSS', 'JavaScript', 'Misc.', 'Utility'],
     misc: true
   },
+  {
+    name: 'Weather App',
+    title: 'Weather App',
+    desc: 'An extremely Simple utility created for Time calculation',
+    link: 'https://main--weatherappsebpatin2.netlify.app/',
+    notes: [
+      'Empowers users to create, edit, and remove custom and existing amiibos with ease',
+      'Utilizes modern web technologies like React, Node.js, Express, and MongoDB for efficient data management'
+    ],
+    img: 'https://api.pikwy.com/web/66711e3255dc537baf2b2c0c.jpg',
+    tags: ['Front-end', 'API', 'Utility'],
+    misc: false
+  },
 ];
