@@ -98,7 +98,7 @@ export const projects: ProjectInfo[] = [
     name: 'Weather App',
     title: 'Weather App',
     desc: 'An extremely Simple utility created for Time calculation',
-    link: 'https://main--weatherappsebpatin2.netlify.app/',
+    link: 'https://shinobiseb.github.io/weather-api-app-2/',
     notes: [
       'Empowers users to create, edit, and remove custom and existing amiibos with ease',
       'Utilizes modern web technologies like React, Node.js, Express, and MongoDB for efficient data management'
