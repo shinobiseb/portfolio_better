@@ -103,6 +103,15 @@
     transition: 200ms;
 }
 
+.social-icon .social-svg-icon {
+    fill: black !important;
+}
+
+.social-icon:hover .social-svg-icon {
+    fill: white !important;
+}
+
+
 /* ----------------- PROJECT LIST -------------------- */
 
 .project-div {

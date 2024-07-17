@@ -1,6 +1,8 @@
 import { useRef } from 'react';
 import { ItemRefsType } from '../assets/types';
 import { sidebarArr } from '../assets/projectinfo';
+import { SocialIcon } from 'react-social-icons';
+
 
 export default function Sidebar() {
   const itemRefs = useRef<ItemRefsType>({});
@@ -42,6 +44,39 @@ export default function Sidebar() {
             {item.name}
           </a>
         ))}
+        </ul>
+        <ul id='socials' className='flex flex-row w-1/2 justify-evenly'>
+          <li>
+            <a href="https://github.com/shinobiseb">
+              <SocialIcon
+              className='social-icon' 
+              url='https://github.com/shinobiseb' 
+              bgColor='transparent' 
+              fgColor='currentColor'
+              />
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/ney-patin-6a0a3915a/">
+              <SocialIcon
+              className='social-icon' 
+              url='https://www.linkedin.com/in/ney-patin-6a0a3915a/' 
+              bgColor='transparent' 
+              fgColor='currentColor'
+              />
+            </a>
+          </li>
+          <li>
+            <a href="https://www.sebpatin.com/">
+              <SocialIcon
+              className='social-icon' 
+              url='https://www.sebpatin.com/' 
+              bgColor='transparent' 
+              fgColor='currentColor'
+              />
+            </a>
+          </li>
+          
         </ul>
       </div>
       <span className='text-gray text-right pr-5'>Site by me!</span>

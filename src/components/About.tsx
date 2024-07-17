@@ -1,5 +1,7 @@
-import Decals from './Decals'
-import BackButton from './BackButton'
+import Decals from './Decals';
+import BackButton from './BackButton';
+import IconSection from './IconSection';
+
 
 export default function About() {
   return (
@@ -43,7 +45,7 @@ export default function About() {
                       <span className='font-semibold'>Core Principles:</span> Algorithms, data structures, operating systems.
                     </li>
                     <li className=''>
-                      <span className='font-semibold'>Programming Languages:</span> Java, Python, C++.
+                      <span className='font-semibold'>Programming Languages:</span> Python, C++, Java. 
                     </li>
                     <li className=''>
                       <span className='font-semibold'>Projects:</span> Building applications, emphasizing software engineering practices.
@@ -53,6 +55,10 @@ export default function About() {
               </div>
             </div>
           </main>
+
+          <section>
+            <IconSection/>
+          </section>
         </main>
         <BackButton/>
       </div>
