@@ -3,7 +3,7 @@ import { ProjectInfo } from "./types";
 export const sidebarArr = [
     { name: 'PROJECTS', key: 0, href: 'projects' },
     { name: 'ABOUT', key: 1, href: 'about' },
-    // { name: 'CONTACT', key: 2, href: 'contact' }
+    { name: 'CONTACT', key: 2, href: 'contact' }
 ];
 
 export const projects: ProjectInfo[] = [
