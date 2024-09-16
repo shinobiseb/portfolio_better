@@ -8,6 +8,12 @@ export const sidebarArr = [
 
 export const projects: ProjectInfo[] = [
   {
+    title: 'MauChat',
+    link: 'https://chat-messenger-momo-nextjs.vercel.app/',
+    tags: ['Full Stack', 'SAAS', 'NEXTJS'],
+    misc: false
+  },
+  {
     title: 'listConductor',
     link: 'https://shinobiseb.github.io/frontend_listConductor/',
     tags: ['API', 'Front End', 'TypeScript'],

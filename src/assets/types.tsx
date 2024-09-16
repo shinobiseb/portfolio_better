@@ -5,7 +5,6 @@ export interface ProjectInfo {
     misc: boolean;
 }
 
-
 export interface ItemRefsType {
     [key: number]: HTMLAnchorElement | null;
 }
