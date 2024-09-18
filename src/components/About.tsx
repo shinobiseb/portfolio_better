@@ -57,7 +57,7 @@ export default function About() {
           </main>
 
           <section>
-            <IconSection/>
+            <IconSection isVisible/>
           </section>
         </main>
         <BackButton/>
