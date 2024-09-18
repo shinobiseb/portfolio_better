@@ -59,6 +59,6 @@ export const projects: ProjectInfo[] = [
     title: 'Weather App',
     link: 'https://shinobiseb.github.io/weather-api-app-2/',
     tags: ['Front-end', 'API', 'Utility'],
-    misc: false
+    misc: true
   },
 ];

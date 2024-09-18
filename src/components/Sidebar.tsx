@@ -26,12 +26,12 @@ export default function Sidebar() {
   return (
     <div className='z-20 flex flex-col justify-center md:justify-end h-full w-full md:w-1/2 bg-orange overflow-hidden' id='Sidebar'>
       <div id='Sidebar-list' className='flex flex-col justify-around items-center h-full w-full text-right sm:pr-5'>
-        <div className='sidebar-header text-black flex flex-col w-full h-20 mt-4 items-center md:justify-right sm:items-end'>
+        <div className='sidebar-header text-black flex flex-col w-full h-20 mt-4 items-center md:justify-right md:items-end'>
           <h3 className='text-2xl sm:text-4xl '>Ney Sebastian Patin III</h3>
           <h4 className='text-2xl sm:text-3xl '>Software Engineer</h4>
         </div>
         
-        <ul className='flex flex-col justify-evenly items-center sm:items-end w-full h-3/5'>
+        <ul className='flex flex-col justify-evenly items-center md:items-end w-full h-3/5'>
         {sidebarArr.map((item) => (
           <a 
             key={item.key} 
