@@ -137,6 +137,7 @@
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
+    flex-wrap: wrap;
 }
 
 #MiscDiv > div > a {
