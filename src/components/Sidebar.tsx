@@ -47,7 +47,7 @@ export default function Sidebar() {
         </ul>
         <ul id='socials' className='flex flex-row w-1/2 justify-evenly'>
           <li>
-            <a href="https://github.com/shinobiseb">
+            <a href="https://github.com/shinobiseb" target='_blank'>
               <SocialIcon
               className='social-icon' 
               url='https://github.com/shinobiseb' 
@@ -57,10 +57,10 @@ export default function Sidebar() {
             </a>
           </li>
           <li>
-            <a href="https://www.linkedin.com/in/ney-patin-6a0a3915a/">
+            <a href="www.linkedin.com/in/ney-patin-iii-6a0a3915a" target='_blank'>
               <SocialIcon
               className='social-icon' 
-              url='https://www.linkedin.com/in/ney-patin-6a0a3915a/' 
+              url="www.linkedin.com/in/ney-patin-iii-6a0a3915a" 
               bgColor='transparent' 
               fgColor='currentColor'
               />
