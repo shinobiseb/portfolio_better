@@ -1,21 +1,27 @@
 import Decals from './Decals';
 import BackButton from './BackButton';
 import { useState } from 'react';
+import { AnimatePresence, motion } from 'framer-motion';
 
 export default function Contact() {
-
   const [textToCopy] = useState('sebpatin@gmail.com');
-  const [ copiedText, showCopiedText ] = useState(false)
+  const [copiedText, setCopiedText] = useState(false);
 
   const handleCopy = () => {
     navigator.clipboard.writeText(textToCopy);
-    showCopiedText(true)
-    setTimeout(()=> showCopiedText(false), 2000)
+    setCopiedText(true);
+    setTimeout(() => setCopiedText(false), 2000);
   };
 
   return (
-    <>
-      <div className='z-10 h-full w-full flex flex-col justify-center items-center overflow-hidden text-center'>
+    <AnimatePresence>
+      <motion.div 
+        key="contact"
+        initial={{ opacity: 0, x: 400 }}
+        animate={{ opacity: 1, x: 0 }}
+        exit={{ opacity: 0, x: 50 }}
+        transition={{ duration: 0.25 }} 
+        className='z-10 h-full w-full flex flex-col justify-center items-center overflow-hidden text-center'>
         <main className='clip w-5/6 bg-white p-2 sm:p-8 flex justify-between flex-col max-w-[800px]'>
           <section className='h-full w-full flex flex-col justify-between p-3'>
             <h1 className='text-xl sm:text-3xl font-semibold'>I'm building Projects!</h1>
@@ -35,10 +41,10 @@ export default function Contact() {
             )}
           </section>
         </main>
-        <BackButton/>
-      </div>
+        <BackButton />
+      </motion.div>
 
-      <Decals/>
-    </>
-  )
+      <Decals />
+    </AnimatePresence>
+  );
 }

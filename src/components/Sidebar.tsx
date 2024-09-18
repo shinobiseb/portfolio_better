@@ -11,7 +11,7 @@ export default function Sidebar() {
     const item = itemRefs.current[key];
     if (item) {
       item.style.color = '#fffcf2';
-      item.style.transform = `translateX(-30px)`;
+      item.style.transform = `translateX(-10px)`;
     }
   };
 

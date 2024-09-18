@@ -1,13 +1,19 @@
 import Decals from './Decals';
 import BackButton from './BackButton';
 import IconSection from './IconSection';
-
+import { AnimatePresence, motion } from 'framer-motion';
 
 export default function About() {
   return (
-    <>
+    <AnimatePresence>
       <div className='z-10 h-full w-full flex flex-col justify-center items-center overflow-hidden'>
-        <main className='clip w-5/6 bg-white p-2 sm:p-8 flex justify-between flex-col max-w-[800px]'>
+        <motion.main
+        key="about"
+        initial={{ opacity: 0, y: -50 }}
+        animate={{ opacity: 1, y: 0 }}
+        exit={{ opacity: 0, x: 50 }}
+        transition={{ duration: .4 }}  
+        className='clip w-5/6 bg-white p-2 sm:p-8 flex justify-between flex-col max-w-[800px]'>
           <section className='h-full w-full flex flex-col justify-between p-3'>
             <h3 className='text-xl sm:text-3xl font-semibold'>About Sebastian</h3>
               <p className='mt-1 text-sm sm:text-lg h-full flex flex-col mb-4'>
@@ -59,11 +65,11 @@ export default function About() {
           <section>
             <IconSection isVisible/>
           </section>
-        </main>
+        </motion.main>
         <BackButton/>
       </div>
 
       <Decals/>
-    </>
+    </AnimatePresence>
   )
 }
