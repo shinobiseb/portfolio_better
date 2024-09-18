@@ -35,7 +35,7 @@ export default function Sidebar() {
         {sidebarArr.map((item) => (
           <a 
             key={item.key} 
-            className='sidebar-item text-black cursor-pointer text-6xl md:text-7xl' 
+            className='sidebar-item text-black cursor-pointer text-6xl' 
             onMouseOver={() => handleMouseOver(item.key)} 
             onMouseOut={() => handleMouseOut(item.key)}
             ref={(element) => (itemRefs.current[item.key] = element)}
@@ -67,16 +67,15 @@ export default function Sidebar() {
             </a>
           </li>
           <li>
-            <a href="https://www.sebpatin.com/">
+            <button>
               <SocialIcon
               className='social-icon' 
               url='https://www.sebpatin.com/' 
               bgColor='transparent' 
               fgColor='currentColor'
               />
-            </a>
+            </button>
           </li>
-          
         </ul>
       </div>
       <span className='text-gray text-right pr-5'>Site by me!</span>
