@@ -6,7 +6,7 @@ import Contact from './components/Contact';
 
 function App() {
   return (
-      <main id="App" className="h-screen bg-black flex flex-row justify-center items-center">
+      <main id="App" className="h-screen bg-black flex flex-row justify-center items-center overflow-hidden">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<ProjectList />} />
