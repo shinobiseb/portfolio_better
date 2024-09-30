@@ -9,7 +9,7 @@ export const sidebarArr = [
 export const projects: ProjectInfo[] = [
   {
     title: 'MauChat',
-    link: 'https://chat-messenger-momo-nextjs.vercel.app/',
+    link: 'https://mauchat.vercel.app/',
     tags: ['Full Stack', 'SAAS', 'NEXTJS'],
     misc: false
   },
