@@ -3,7 +3,6 @@ import { ItemRefsType } from '../assets/types';
 import { sidebarArr } from '../assets/projectinfo';
 import { SocialIcon } from 'react-social-icons';
 
-
 export default function Sidebar() {
   const itemRefs = useRef<ItemRefsType>({});
 
@@ -32,49 +31,51 @@ export default function Sidebar() {
         </div>
         
         <ul className='flex flex-col justify-evenly items-center md:items-end w-full h-3/5'>
-        {sidebarArr.map((item) => (
-          <a 
-            key={item.key} 
-            className='sidebar-item text-black cursor-pointer text-6xl' 
-            onMouseOver={() => handleMouseOver(item.key)} 
-            onMouseOut={() => handleMouseOut(item.key)}
-            ref={(element) => (itemRefs.current[item.key] = element)}
-            href={item.href}
-          >
-            {item.name}
-          </a>
-        ))}
+          {sidebarArr.map((item) => (
+            <li key={item.key}>
+              <a 
+                className='sidebar-item text-black cursor-pointer text-6xl' 
+                onMouseOver={() => handleMouseOver(item.key)} 
+                onMouseOut={() => handleMouseOut(item.key)}
+                ref={(element) => (itemRefs.current[item.key] = element)}
+                href={item.href}
+              >
+                {item.name}
+              </a>
+            </li>
+          ))}
         </ul>
+        
         <ul id='socials' className='flex flex-row w-1/2 justify-evenly'>
           <li>
-            <a href="https://github.com/shinobiseb" target='_blank'>
+            <a href="https://github.com/shinobiseb" target='_blank' rel='noopener noreferrer'>
               <SocialIcon
-              className='social-icon' 
-              url='https://github.com/shinobiseb' 
-              bgColor='transparent' 
-              fgColor='currentColor'
+                className='social-icon' 
+                url='https://github.com/shinobiseb' 
+                bgColor='transparent' 
+                fgColor='currentColor'
               />
             </a>
           </li>
           <li>
-            <a href="www.linkedin.com/in/ney-patin-iii-6a0a3915a" target='_blank'>
+            <a href="https://www.linkedin.com/in/ney-patin-iii-6a0a3915a" target='_blank' rel='noopener noreferrer'>
               <SocialIcon
-              className='social-icon' 
-              url="www.linkedin.com/in/ney-patin-iii-6a0a3915a" 
-              bgColor='transparent' 
-              fgColor='currentColor'
+                className='social-icon' 
+                url="https://www.linkedin.com/in/ney-patin-iii-6a0a3915a" 
+                bgColor='transparent' 
+                fgColor='currentColor'
               />
             </a>
           </li>
           <li>
-            <button>
+            <a href='https://www.sebpatin.com/' target='_blank' rel='noopener noreferrer'>
               <SocialIcon
-              className='social-icon' 
-              url='https://www.sebpatin.com/' 
-              bgColor='transparent' 
-              fgColor='currentColor'
+                className='social-icon' 
+                url='https://www.sebpatin.com/' 
+                bgColor='transparent' 
+                fgColor='currentColor'
               />
-            </button>
+            </a>
           </li>
         </ul>
       </div>
