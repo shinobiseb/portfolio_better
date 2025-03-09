@@ -8,6 +8,12 @@ export const sidebarArr = [
 
 export const projects: ProjectInfo[] = [
   {
+    title: 'SPCut Video Trimmer',
+    link: 'https://spcut.vercel.app/',
+    tags: ['Full Stack', 'SAAS', 'FFMPEG'],
+    misc: false
+  },
+  {
     title: 'MauChat',
     link: 'https://mauchat.vercel.app/',
     tags: ['Full Stack', 'SAAS', 'NEXTJS'],
