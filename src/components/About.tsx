@@ -17,9 +17,9 @@ export default function About() {
           <section className='h-full w-full flex flex-col justify-between p-3'>
             <h3 className='text-xl sm:text-3xl font-semibold'>About Sebastian</h3>
               <p className='mt-1 text-sm sm:text-lg h-full flex flex-col mb-4'>
-                Hello! I am Sebastian AKA Seb or Ney. I am a Software Developer with a background in music, and video production.
+                Hello! I am Ney/Sebastian. I am a Software Engineer with a background in music, and video production.
                 <br/>
-                I made the switch to programming in December of 2021, after graduating from General Assembly's Software Engineering Immersive. Ever since then, I have been using my analytical skills to create applications that demonstrate efficiency and reduce visual clutter.
+                I made the switch to programming in December of 2021, after graduating from General Assembly's Software Engineering Immersive. Ever since then, I have been using my problem solving, analytical skills to create applications that help creatives.
               </p>
             </section>
 
@@ -36,10 +36,10 @@ export default function About() {
                     <span className='font-semibold'>Back-End Development:</span> Node.js, Express, MongoDB, Heroku
                   </li>
                   <li className=''>
-                    <span className='font-semibold'>Software Development Lifecycle:</span> Agile methodologies, Git, CI/CD.
+                    <span className='font-semibold'>Software Development Lifecycle:</span> Agile methodologies, Git, CI/CD
                   </li>
                   <li className=''>
-                    <span className='font-semibold'>Collaborative Projects:</span> Team projects simulating real-world environments.
+                    <span className='font-semibold'>Collaborative Projects:</span> Team projects simulating real-world environments
                   </li>
                 </ul>
               </section>
@@ -48,13 +48,13 @@ export default function About() {
                   <h4 className='font-medium truncate'>Computer Science, Hostos Community College (2023-Present)</h4>
                   <ul className='mt-1 pl-5 list-disc'>
                     <li className=''>
-                      <span className='font-semibold'>Core Principles:</span> Algorithms, data structures, operating systems.
+                      <span className='font-semibold'>Core Principles:</span> Algorithms, data structures, operating systems
                     </li>
                     <li className=''>
-                      <span className='font-semibold'>Programming Languages:</span> Python, C++, Java. 
+                      <span className='font-semibold'>Programming Languages:</span> Python, C++, Java
                     </li>
                     <li className=''>
-                      <span className='font-semibold'>Projects:</span> Building applications, emphasizing software engineering practices.
+                      <span className='font-semibold'>Projects:</span> Building applications, emphasizing software engineering practices
                     </li>
                   </ul>
                 </section>

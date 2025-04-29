@@ -1,10 +1,16 @@
-import { useRef } from 'react';
+import { useRef, useState } from 'react';
 import { ItemRefsType } from '../assets/types';
 import { sidebarArr } from '../assets/projectinfo';
 import { SocialIcon } from 'react-social-icons';
+import { AnimatePresence, motion } from 'framer-motion';
+
 
 export default function Sidebar() {
+  const copyRef = useRef(null);
+  const copyText = useRef(null);
   const itemRefs = useRef<ItemRefsType>({});
+
+  const [showText, setShowText] = useState(false)
 
   const handleMouseOver = (key: number) => {
     const item = itemRefs.current[key];
@@ -20,6 +26,12 @@ export default function Sidebar() {
       item.style.color = '#232422';
       item.style.transform = `translateX(0px)`;
     }
+  };
+
+  function copyFun() {
+    navigator.clipboard.writeText("https://www.sebpatin.com/")
+    setShowText(true)
+    setTimeout(()=>setShowText(false), 2000)
   };
 
   return (
@@ -48,36 +60,49 @@ export default function Sidebar() {
         
         <ul id='socials' className='flex flex-row w-1/2 justify-evenly'>
           <li>
-            <a href="https://github.com/shinobiseb" target='_blank' rel='noopener noreferrer'>
-              <SocialIcon
-                className='social-icon' 
-                url='https://github.com/shinobiseb' 
-                bgColor='transparent' 
-                fgColor='currentColor'
-              />
-            </a>
+            <SocialIcon
+              className='social-icon' 
+              url='https://github.com/shinobiseb' 
+              target='_blank'
+              bgColor='transparent' 
+              fgColor='currentColor'
+            />
           </li>
           <li>
-            <a href="https://www.linkedin.com/in/ney-patin-iii-6a0a3915a" target='_blank' rel='noopener noreferrer'>
-              <SocialIcon
-                className='social-icon' 
-                url="https://www.linkedin.com/in/ney-patin-iii-6a0a3915a" 
-                bgColor='transparent' 
-                fgColor='currentColor'
-              />
-            </a>
+            <SocialIcon
+              className='social-icon' 
+              url="https://www.linkedin.com/in/ney-patin-iii-6a0a3915a"
+              target='_blank' 
+              bgColor='transparent' 
+              fgColor='currentColor'
+            />
           </li>
           <li>
-            <a href='https://www.sebpatin.com/' target='_blank' rel='noopener noreferrer'>
-              <SocialIcon
-                className='social-icon' 
-                url='https://www.sebpatin.com/' 
-                bgColor='transparent' 
-                fgColor='currentColor'
+            <SocialIcon
+              as='button'
+              className='social-icon' 
+              url='https://www.sebpatin.com/' 
+              bgColor='transparent' 
+              target='_blank' 
+              fgColor='currentColor'
+              ref={copyRef}
+              onClick={copyFun}
               />
-            </a>
           </li>
         </ul>
+        
+              <AnimatePresence>
+              {
+                showText 
+                ? <motion.div 
+                    initial={{ opacity: 1 }}
+                    exit={{ opacity: 0 }}
+                    className='p-1 px-4 absolute bottom-36 bg-lightgray small-clip'>
+                      Copied Link to Clipboard
+                  </motion.div> 
+                : null
+              }
+              </AnimatePresence>
       </div>
       <span className='text-gray text-right pr-5'>Site by me!</span>
     </div>
