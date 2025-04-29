@@ -7,7 +7,6 @@ import { AnimatePresence, motion } from 'framer-motion';
 
 export default function Sidebar() {
   const copyRef = useRef(null);
-  const copyText = useRef(null);
   const itemRefs = useRef<ItemRefsType>({});
 
   const [showText, setShowText] = useState(false)
