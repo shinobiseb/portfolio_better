@@ -1,10 +1,3 @@
-export interface ProjectInfo {
-    title: string;
-    link: string;
-    tags: string[];
-    misc: boolean;
-}
-
 export interface ItemRefsType {
     [key: number]: HTMLAnchorElement | null;
 }
@@ -12,16 +5,9 @@ export interface ItemRefsType {
 export interface projectProps {
     title : string;
     tags: Array<string>;
-    misc: boolean
-}
-
-export interface ProjectInfoType {
-    title: string;
-    desc: string;
     link: string;
-    notes: Array<string>;
-    img: string;
-    tags: Array<string>;
-    show: boolean;
-    setShow: any;
+    misc: boolean;
+    desc?: string;
+    dates?: string;
+    img?: string;
 }

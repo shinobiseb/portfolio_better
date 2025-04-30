@@ -114,14 +114,12 @@
 
 /* ----------------- PROJECT LIST -------------------- */
 
-.project-div {
+.clip-bot-right {
     clip-path: polygon(0 0, 0 100%, calc(100% - 20px) 100%, 100% calc(100% - 20px), 100% 0);
 }
 
-.project-div:hover {
-    transition: 200ms;
-    background-color: #ffba08;
-    translate: -5px;
+.clip-top-right {
+    clip-path: polygon(0 0, calc(100% - 20px) 0, 100% 20px, 100% 100%, 0 100%);
 }
 
 .small-clip {
@@ -130,26 +128,6 @@
 
 .clip {
     clip-path: polygon(0 0, 0 100%, calc(100% - 20px) 100%, 100% calc(100% - 20px), 100% 0);
-}
-
-.project-div-misc {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 100%;
-    flex-wrap: wrap;
-}
-
-#MiscDiv > div > a {
-    width: 49%;
-    display: flex;
-    flex: row;
-    justify-content: center;
-    align-items: center;
-}
-
-#MiscDiv > div > a > div > ul {
-    display: none;
 }
 
 /* ----------------- QUERIES -------------------- */
