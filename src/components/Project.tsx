@@ -49,7 +49,7 @@ export default function Project( props : projectProps ) {
                 props.img 
                 ? 
                 <img 
-                className="hidden p-2 sm:flex  h-5/6 w-full object-cover" 
+                className="hidden m-2 sm:flex  h-5/6 w-full object-cover border" 
                 src={props.img}
                 alt="" /> 
                 : null
