@@ -12,6 +12,7 @@ export default {
         'gray': '#403d39',
         'lightgray': '#ccc5b9',
         'white': '#fffcf2',
+        'yellow': '#ffee82'
       },
       keyframes: {
         revolve: {

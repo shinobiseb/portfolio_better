@@ -10,15 +10,17 @@ export const projects: projectProps[] = [
   {
     title: 'SPCut Video Trimmer',
     link: 'https://spcut.vercel.app/',
-    tags: ['Front end', 'SAAS', 'FFMPEG'],
-    desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt, inventore provident saepe vero mollitia accusamus! Illum laboriosam numquam accusamus obcaecati iure asperiores sit ex, voluptatem necessitatibus velit fugiat quasi blanditiis?",
-    misc: false
+    tags: ['Front end', 'TypeScript', 'FFMPEG'],
+    desc: "SPCut is a video clip trimmer - taking longer video files and trimming them down to the specified length, without the need for a downloadable video editor. This application utilizes TypeScript, React, FFMPEG, and TailwindCSS.",
+    misc: false,
+    img: "https://i.imgur.com/yESRlTD.png"
   },
   {
     title: 'MauChat',
     link: 'https://mauchat.vercel.app/',
-    tags: ['Full Stack', 'SAAS', 'NEXTJS'],
-    desc: "Lorem",
+    tags: ['Full Stack', 'TypeScript', 'NEXTJS'],
+    desc: "MauChat",
+    img: "https://i.imgur.com/dFFi07A.png",
     misc: false
   },
   {
@@ -26,6 +28,7 @@ export const projects: projectProps[] = [
     link: 'https://shinobiseb.github.io/frontend_listConductor/',
     tags: ['API', 'Front End', 'TypeScript'],
     desc: "Lorem",
+    img:"https://i.imgur.com/8zgsNUQ.png",
     misc: false
   },
   {
@@ -33,6 +36,7 @@ export const projects: projectProps[] = [
     link: 'https://vibrant-swanson-4dbce0.netlify.app/',
     tags: ['API', 'full stack', 'Javascript'],
     desc: "Lorem",
+    img: "https://i.imgur.com/h0jggAY.png",
     misc: false
   },
   {
@@ -47,6 +51,7 @@ export const projects: projectProps[] = [
     link: 'https://mika-portfolio-2jop-c3xuyvh7y-shinobisebs-projects.vercel.app/',
     tags: ['front end', 'react', 'UI/UX'],
     desc: "Lorem",
+    img: "https://i.imgur.com/zZL03VR.png",
     misc: false
   },
   {
@@ -61,6 +66,7 @@ export const projects: projectProps[] = [
     link: 'https://dazzling-joliot-f48594.netlify.app/',
     tags: ['full stack', 'Masonite', 'Rest api'],
     desc: "Lorem",
+    img: "https://i.imgur.com/Qkr7uAg.png",
     misc: false
   },
   {

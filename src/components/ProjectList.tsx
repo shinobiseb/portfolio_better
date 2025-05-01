@@ -10,21 +10,22 @@ export default function ProjectList() {
     return projectArray
       .filter(project => project.misc === miscValue)
       .map((project, index) => (
-        <li key={index} rel='noopener noreferrer'>
+        <motion.li layout key={index} rel='noopener noreferrer'>
           <Project 
           desc={project.desc}
           link={project.link}
           misc={project.misc} 
           title={project.title} 
           tags={project.tags} 
+          img={project.img}
           />
-        </li>
+        </motion.li>
       ));
   };
 
   return (
     <AnimatePresence>
-      <div 
+      <div
       className='flex flex-col h-full w-5/6 max-w-3xl justify-center items-center'>
         <motion.main 
         initial={{ opacity: 0, x: -400 }}
@@ -32,13 +33,14 @@ export default function ProjectList() {
         exit={{ opacity: 0, x: 50 }}
         transition={{ duration: 0.25 }} 
         className='clip z-10 flex flex-col h-5/6 w-full text-gray bg-gray overflow-y-auto max-w-7xl p-2'>
-          <div className='non-misc-projects'>
+          <motion.ul
+          layout
+          className='non-misc-projects'>
             {projectMapper(projects, false)}
-          </div>
-
-          <div className='misc-projects'>              
+          </motion.ul>
+          <div className='misc-projects'>       
             <h2 className='text-white'>Miscellaneous Projects</h2>
-            <div className="flex flex-col sm:flex-row justify-between w-full flex-wrap">
+            <div className="w-full grid grid-cols-2 grid-col gap-x-2">
               {projectMapper(projects, true)}
             </div>
           </div>
