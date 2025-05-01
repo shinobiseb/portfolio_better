@@ -12,7 +12,7 @@ export default function Project( props : projectProps ) {
 
   return (
     <motion.div 
-    layout
+    layout={'position'}
     className="mb-2 w-full overflow-y-hidden relative">
         {/* hider div */}
         {
