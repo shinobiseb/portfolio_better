@@ -19,7 +19,7 @@ export const projects: projectProps[] = [
     title: 'MauChat',
     link: 'https://mauchat.vercel.app/',
     tags: ['Full Stack', 'TypeScript', 'NEXTJS'],
-    desc: "MauChat",
+    desc: "MauChat is a real-time messaging application, with account creation, authentication and authorization. MauChat utilizes a custom MongoDB API, Web Sockets, React, TypeScript, TailwindCSS and NextJS.",
     img: "https://i.imgur.com/dFFi07A.png",
     misc: false
   },
@@ -27,7 +27,7 @@ export const projects: projectProps[] = [
     title: 'listConductor',
     link: 'https://shinobiseb.github.io/frontend_listConductor/',
     tags: ['API', 'Front End', 'TypeScript'],
-    desc: "Lorem",
+    desc: "ListConductor is a playlist creation app that uses Spotify's API to search for songs to add to playlists. Future plans include Spotify User integration. ListConductor utilizes React, TypeScript, Spotify API, TailwindCSS and LocalStorage.",
     img:"https://i.imgur.com/8zgsNUQ.png",
     misc: false
   },
@@ -35,7 +35,7 @@ export const projects: projectProps[] = [
     title: 'Superhero Quiz',
     link: 'https://vibrant-swanson-4dbce0.netlify.app/',
     tags: ['API', 'full stack', 'Javascript'],
-    desc: "Lorem",
+    desc: "This web based superhero themed quiz game features a 2 player support and a win state at 5 points. Superhero Quiz utilizes a custom Netlify API, and superhero aesthetic via CSS styling",
     img: "https://i.imgur.com/h0jggAY.png",
     misc: false
   },
@@ -50,7 +50,7 @@ export const projects: projectProps[] = [
     title: 'Client Portfolio',
     link: 'https://mika-portfolio-2jop-c3xuyvh7y-shinobisebs-projects.vercel.app/',
     tags: ['front end', 'react', 'UI/UX'],
-    desc: "Lorem",
+    desc: "A Custom React client portfolio created for the amazing artist Mika Ervin. This Portfolio site utilizes React, Vite, TypeScript and TailwindCSS",
     img: "https://i.imgur.com/zZL03VR.png",
     misc: false
   },
@@ -58,14 +58,14 @@ export const projects: projectProps[] = [
     title: 'Goatwriting',
     link: 'https://relaxed-joliot-33c743.netlify.app/',
     tags: ['CRUD', 'mongoDB', 'typescript'],
-    desc: "Lorem",
+    desc: "A Cancelled work in progress CRUD application that utilized TypeScript and React to create a music creation application for artists. This served as my introduction to TypeScript",
     misc: false
   },
   {
     title: 'Meditracker',
     link: 'https://dazzling-joliot-f48594.netlify.app/',
     tags: ['full stack', 'Masonite', 'Rest api'],
-    desc: "Lorem",
+    desc: "A Medication Tracker application, designed to be extremely user friendly. Meditracker utilizes a custom Masonite backend, with a React frontend, along with Material UI.",
     img: "https://i.imgur.com/Qkr7uAg.png",
     misc: false
   },
