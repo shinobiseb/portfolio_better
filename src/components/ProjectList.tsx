@@ -40,7 +40,7 @@ export default function ProjectList() {
           </motion.ul>
           <div className='misc-projects'>       
             <h2 className='text-white'>Miscellaneous Projects</h2>
-            <div className="w-full grid grid-cols-2 grid-col gap-x-2">
+            <div className="w-full grid sm:grid-cols-2 sm:grid-col sm:gap-x-2">
               {projectMapper(projects, true)}
             </div>
           </div>
