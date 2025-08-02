@@ -34,13 +34,14 @@ export default function ProjectList() {
         transition={{ duration: 0.25 }} 
         className='clip z-10 flex flex-col h-5/6 w-full text-gray bg-gray overflow-y-auto max-w-7xl p-2'>
           <motion.ul
-          layout
-          className='non-misc-projects'>
-            {projectMapper(projects, false)}
+            layout
+            className='non-misc-projects'>
+              {projectMapper(projects, false)}
           </motion.ul>
           <div className='misc-projects'>       
             <h2 className='text-white'>Miscellaneous Projects</h2>
-            <div className="w-full grid sm:grid-cols-2 sm:grid-col sm:gap-x-2">
+            <div
+            className="w-full grid sm:grid-cols-2 sm:grid-col sm:gap-x-2">
               {projectMapper(projects, true)}
             </div>
           </div>

@@ -24,10 +24,14 @@ export default function Project(props: projectProps) {
     );
   }
 
+  const durationTime : number = 0.2;
+
   // Non-misc project rendering
   return (
     <motion.div 
-      layout="position"
+      layout
+      animate={{ height: isExpanded ? 'auto' : 100}}
+      transition={{ duration : durationTime }}
       className="mb-2 w-full overflow-y-hidden relative"
     >
       <div className="bg-gray z-20 h-[20px] w-[30px] right-0 absolute" />
@@ -58,7 +62,7 @@ export default function Project(props: projectProps) {
             initial={{ y: -300 }}
             animate={{ y: 0 }}
             exit={{ y: -400 }}
-            transition={{ type: "just", duration: 0.3 }}
+            transition={{ type: "just", duration: durationTime }}
             className="z-10 clip-bot-right w-full p-4 flex flex-col items-center bg-lightgray"
           >
             <section className="flex flex-col sm:flex-row w-full justify-between">
