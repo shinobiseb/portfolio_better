@@ -32,7 +32,7 @@ export default function Project(props: projectProps) {
       layout
       animate={{ height: isExpanded ? 'auto' : 100}}
       transition={{ duration : durationTime }}
-      className="mb-2 w-full overflow-y-hidden relative"
+      className="mb-1 w-full overflow-y-hidden relative"
     >
       <div className="bg-gray z-20 h-[20px] w-[30px] right-0 absolute" />
 
