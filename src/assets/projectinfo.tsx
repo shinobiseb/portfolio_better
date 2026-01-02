@@ -81,4 +81,10 @@ export const projects: projectProps[] = [
     tags: ['Front-end', 'API', 'Utility'],
     misc: true
   },
+  {
+    title: 'Clip Site',
+    link: 'https://vercel.com/shinobisebs-projects/sketch-mp4-clip',
+    tags: ['Front-end', 'Search', 'Svelte'],
+    misc: true
+  },
 ];
