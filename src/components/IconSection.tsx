@@ -1,7 +1,7 @@
 import { BiLogoTypescript, BiLogoMongodb } from "react-icons/bi";
 import { IoLogoJavascript } from "react-icons/io5";
 import { FaReact, FaPython, FaSass, FaNodeJs, FaGitAlt, FaHtml5 } from "react-icons/fa";
-import { RiTailwindCssFill } from "react-icons/ri";
+import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri";
 import { SiExpress } from "react-icons/si";
 import { GrHeroku } from "react-icons/gr";
 import { HiOutlineCommandLine } from "react-icons/hi2";
@@ -24,7 +24,7 @@ const IconSection = ({ isVisible }: { isVisible: boolean }) => {
               <li><FaReact size={30} /></li>
               <li><FaPython size={30} /></li>
               <li><RiTailwindCssFill size={30} /></li>
-              <li><FaSass size={30} /></li>
+              <li><RiNextjsFill size={30} /></li>
               <li><SiExpress size={30} /></li>
               <li><BiLogoMongodb size={30} /></li>
               <li><FaNodeJs size={30} /></li>

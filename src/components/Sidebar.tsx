@@ -45,7 +45,7 @@ export default function Sidebar() {
           {sidebarArr.map((item) => (
             <li key={item.key}>
               <a 
-                className='sidebar-item text-black cursor-pointer text-6xl' 
+                className='truncate text-black cursor-pointer text-6xl' 
                 onMouseOver={() => handleMouseOver(item.key)} 
                 onMouseOut={() => handleMouseOut(item.key)}
                 ref={(element) => (itemRefs.current[item.key] = element)}

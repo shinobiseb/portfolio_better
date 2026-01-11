@@ -2,7 +2,7 @@ import { projectProps } from "./types";
 
 export const sidebarArr = [
     { name: 'PROJECTS', key: 0, href: 'projects' },
-    { name: 'ABOUT', key: 1, href: 'about' },
+    { name: 'EXPERIENCE', key: 1, href: 'experience' },
     { name: 'CONTACT', key: 2, href: 'contact' }
 ];
 

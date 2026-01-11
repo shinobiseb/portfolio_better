@@ -91,7 +91,6 @@
     background-color: #fffcf280;
 }
 
-
 /* ----------------- SIDEBAR -------------------- */
 
 #Sidebar-list {
@@ -128,10 +127,6 @@
 
 .clip {
     clip-path: polygon(0 0, 0 100%, calc(100% - 20px) 100%, 100% calc(100% - 20px), 100% 0);
-}
-
-.misc-project {
-    
 }
 
 /* ----------------- QUERIES -------------------- */

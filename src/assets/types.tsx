@@ -11,3 +11,15 @@ export interface projectProps {
     dates?: string;
     img?: string;
 }
+
+export interface IBullet {
+    key: string,
+    desc: string
+}
+
+export interface IExperience {
+    subject : string,
+    company : string,
+    dateRange : string,
+    bullets : IBullet[]
+}
