@@ -15,8 +15,7 @@ export default function Experience() {
         animate={{ opacity: 1, y: 0 }}
         exit={{ opacity: 0, x: 50 }}
         transition={{ duration: .4 }}  
-        className='clip w-5/6 bg-gray transition-colors text-white p-2 sm:p-8 flex justify-between flex-col max-w-[800px]'>
-          
+        className='clip w-5/6 bg-lightgray transition-colors text-black p-2 sm:p-8 flex justify-between flex-col max-w-[800px]'>
 
           <main className='w-full h-full text-sm sm:text-lg'>
             <div className='flex flex-col justify-between p-3'>

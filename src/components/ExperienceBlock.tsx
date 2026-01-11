@@ -13,7 +13,7 @@ export default function ExperienceBlock( {
           {bullets.map(( bullet, index )=> {
             return (
                 <li key={index}>
-                    <span className="font-medium">{bullet.key}: </span> 
+                    <span className="font-medium text-orange">{bullet.key}: </span> 
                     {bullet.desc}
                 </li>
             )
