@@ -1,6 +1,6 @@
 import { BiLogoTypescript, BiLogoMongodb } from "react-icons/bi";
 import { IoLogoJavascript } from "react-icons/io5";
-import { FaReact, FaPython, FaSass, FaNodeJs, FaGitAlt, FaHtml5 } from "react-icons/fa";
+import { FaReact, FaPython, FaNodeJs, FaGitAlt, FaHtml5 } from "react-icons/fa";
 import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri";
 import { SiExpress } from "react-icons/si";
 import { GrHeroku } from "react-icons/gr";
