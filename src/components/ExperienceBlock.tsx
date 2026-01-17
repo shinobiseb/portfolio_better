@@ -8,12 +8,15 @@ export default function ExperienceBlock( {
 } : IExperience) {
   return (
     <section className='sm:h-full flex flex-col mt-1'>
-        <h4 className='font-medium'>{subject}, {company} ({dateRange})</h4>
+        <h4 
+        className='font-medium '>
+          <span className=" px-1 bg-lightgray text-black">{subject}</span> | {company} ({dateRange})
+        </h4>
         <ul className='mt-1 pl-5 list-disc'>
           {bullets.map(( bullet, index )=> {
             return (
                 <li key={index}>
-                    <span className="font-medium text-orange">{bullet.key}: </span> 
+                    <span className="font-medium">{bullet.key}: </span> 
                     {bullet.desc}
                 </li>
             )

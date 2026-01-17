@@ -2,21 +2,25 @@ import { IExperience } from "./types";
 
 export const experienceInfo : IExperience[] = [
   {
-    subject: "Data Analyst",
-    company: "Hostos Community College",
-    dateRange: "2023-2025",
+    subject: "Software Engineer Intern",
+    company: "Blackstone: BXTI",
+    dateRange: "2026-2026",
     bullets: [
       {
-        key : "Automation",
-        desc: "Python (Pandas, NumPy), Cron Jobs"      
+        key : "Front-End Development",
+        desc: "React, NextJS, TailwindCSS, TypeScript"      
       },
       {
-        key : "Database Management",
-        desc: "SQL, PostgreSQL, "
+        key : "Back-End Maintenance",
+        desc: "JSON, NodeJS"      
       },
       {
-        key : "Data Visualization",
-        desc: "Power BI, Tableau, Matplotlib"
+        key : "Team Leader",
+        desc: "Led developers through real-time Front-End Software Development"
+      },
+      {
+        key : "Teamwork",
+        desc: "Excersized Collaboration skills in Development Environment"
       },
     ]
   },
@@ -55,10 +59,6 @@ export const experienceInfo : IExperience[] = [
       {
         key : "Software Development Lifecycle",
         desc: "Agile methodologies, Git, CI/CD"
-      },
-      {
-        key : "Collaborative Projects",
-        desc: "Team projects simulating real-world environments"
       },
     ]
   },
