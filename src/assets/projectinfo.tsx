@@ -83,7 +83,7 @@ export const projects: projectProps[] = [
   },
   {
     title: 'Clip Site',
-    link: 'https://vercel.com/shinobisebs-projects/sketch-mp4-clip/CnraHyh8PRQv32X3EUhW9FJ728KC',
+    link: 'https://sketch-mp4-clip.vercel.app/',
     tags: ['Front-end', 'Search', 'Svelte'],
     misc: true
   },
