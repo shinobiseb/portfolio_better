@@ -70,7 +70,7 @@ export default function Sidebar() {
           <li>
             <SocialIcon
               className='social-icon' 
-              url="https://www.linkedin.com/in/ney-patin-iii-6a0a3915a"
+              url="https://www.linkedin.com/in/ney-patin-iii"
               target='_blank' 
               bgColor='transparent' 
               fgColor='currentColor'
