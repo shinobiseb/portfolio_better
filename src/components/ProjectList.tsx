@@ -32,7 +32,7 @@ export default function ProjectList() {
         animate={{ opacity: 1, x: 0 }}
         exit={{ opacity: 0, x: 50 }}
         transition={{ duration: 0.25 }} 
-        className='clip z-10 flex flex-col h-5/6 w-full text-gray bg-gray overflow-y-auto max-w-7xl p-2'>
+        className='clip z-10 flex flex-col h-5/6 w-full text-gray bg-gray overflow-y-auto max-w-7xl p-3 border'>
           <motion.ul
             layout
             className='non-misc-projects'>
