@@ -58,8 +58,7 @@ export const projects: projectProps[] = [
     title: 'Goatwriting',
     link: 'https://relaxed-joliot-33c743.netlify.app/',
     tags: ['CRUD', 'mongoDB', 'typescript'],
-    desc: "A Cancelled work in progress CRUD application that utilized TypeScript and React to create a music creation application for artists. This served as my introduction to TypeScript",
-    misc: false
+    misc: true
   },
   {
     title: 'Meditracker',

@@ -69,13 +69,13 @@ export default function Project(props: projectProps) {
               {props.img && (
                 <img 
                   src={props.img} 
-                  alt="" 
+                  alt="Project Picture" 
                   className="hidden sm:block m-2 h-5/6 w-full object-cover border" 
                 />
               )}
               <p className="p-2 w-full">{props.desc}</p>
             </section>
-            <a 
+            <a
               href={props.link}
               className="bg-orange px-8 py-4 mt-8 text-white hover:bg-yellow hover:text-black transition-colors"
             >
