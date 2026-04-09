@@ -12,7 +12,7 @@ export default function Home() {
         animate={{ opacity: 1, scaleY: 1, scaleX: 1 }}
         exit={{ opacity: 0, x: 50 }}
         transition={{ duration: 0.25 }} 
-      className='clip z-10 justify-between flex flex-row flex-end md:h-3/4 h-2/3  bg-lightgray w-5/6 overflow-hidden max-w-7xl'>
+      className='clip z-10 justify-between flex flex-row flex-end md:h-3/4 h-2/3  bg-lightgray w-5/6 overflow-hidden max-w-3xl'>
           <div className=''>
             <img className='hidden md:flex object-cover' src='https://i.imgur.com/WM6T7fx.png'/>
           </div>

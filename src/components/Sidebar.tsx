@@ -1,5 +1,4 @@
-import { useRef, useState } from 'react';
-import { ItemRefsType } from '../assets/types';
+import { useState } from 'react';
 import { sidebarArr } from '../assets/projectinfo';
 import { SocialIcon } from 'react-social-icons';
 import { AnimatePresence, motion } from 'framer-motion';
@@ -19,8 +18,8 @@ export default function Sidebar() {
         
         {/* Header Section */}
         <div className='sidebar-header text-black flex flex-col w-full mt-4'>
-          <h3 className='text-2xl sm:text-3xl lg:text-4xl font-bold'>Ney Sebastian Patin III</h3>
-          <h4 className='text-xl sm:text-2xl lg:text-3xl opacity-80'>Software Engineer</h4>
+          <h3 className='text-2xl sm:text-3xl font-bold'>Ney Sebastian Patin III</h3>
+          <h4 className='text-xl sm:text-2xl opacity-80'>Software Engineer</h4>
         </div>
         
         {/* Navigation Links */}
@@ -29,7 +28,7 @@ export default function Sidebar() {
             <li key={item.key}>
               <motion.a 
                 href={item.href}
-                className='block truncate text-black cursor-pointer text-4xl sm:text-5xl lg:text-7xl font-medium'
+                className='block truncate text-black cursor-pointer text-4xl sm:text-5xl font-medium'
                 whileHover={{ x: -10, color: '#fffcf2' }}
                 transition={{ type: 'spring', stiffness: 300 }}
               >
