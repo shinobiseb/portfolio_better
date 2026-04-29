@@ -25,7 +25,7 @@ export default function ProjectList() {
 
   return (
     <AnimatePresence>
-      <div
+      <motion.div
       className='flex flex-col h-full w-5/6 max-w-3xl justify-center items-center'>
         <motion.main 
         initial={{ opacity: 0, x: -400 }}
@@ -53,7 +53,7 @@ export default function ProjectList() {
         </motion.main>
         <Decals/>
         <BackButton/>
-      </div>
+      </motion.div>
     </AnimatePresence>
   );
 }
