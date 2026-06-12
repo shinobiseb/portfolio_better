@@ -24,19 +24,28 @@ export default function Sidebar() {
         
         {/* Navigation Links */}
         <ul className='flex flex-col justify-center gap-6 md:gap-8 w-full h-auto my-auto'>
-          {sidebarArr.map((item) => (
-            <li key={item.key}>
-              <motion.a 
-                href={item.href}
-                className='block truncate text-black cursor-pointer text-4xl sm:text-5xl font-medium'
-                whileHover={{ x: -10, color: '#fffcf2' }}
-                transition={{ type: 'spring', stiffness: 300 }}
-              >
-                {item.name}
-              </motion.a>
-            </li>
-          ))}
-        </ul>
+  {sidebarArr.map((item) => (
+    <motion.li key={item.key} whileHover='hover'>
+      <a
+        href={item.href}
+        className='block truncate text-black cursor-pointer text-4xl sm:text-5xl font-medium'
+      >
+        <motion.span
+          className='inline-block'
+          variants={{
+            hover: { x: -10, color: '#fffcf2' },
+          }}
+          transition={{
+            x: { type: 'spring', stiffness: 300, damping: 24 },
+            color: { duration: 0.15 },
+          }}
+        >
+          {item.name}
+        </motion.span>
+      </a>
+    </motion.li>
+  ))}
+</ul>
         
         {/* Socials & Feedback */}
         <div className='flex flex-col items-center md:items-end w-full gap-4'>
