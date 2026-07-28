@@ -2,25 +2,44 @@ import { IExperience } from "./types";
 
 export const experienceInfo : IExperience[] = [
   {
-    subject: "Software Engineer Intern",
-    company: "Blackstone: BXTI",
-    dateRange: "2026-2026",
+    subject: "Software Engineer",
+    company: "QuickSlot Health",
+    dateRange: "2026 – Present",
     bullets: [
       {
-        key : "Front-End Development",
-        desc: "React, NextJS, TailwindCSS, TypeScript"      
+        key: "Front-End Architecture",
+        desc: "Built scalable user interfaces and dashboards using React, Next.js, TypeScript, and TailwindCSS."      
       },
       {
-        key : "Back-End Maintenance",
-        desc: "JSON, NodeJS"      
+        key: "Back-End Services",
+        desc: "Maintained micro-services and APIs to maintain data sync and uptime."      
       },
       {
-        key : "Team Leader",
-        desc: "Led developers through real-time Front-End Software Development"
+        key: "Technical Leadership",
+        desc: "Led development, code reviews, bug fixes and guided engineers through real-time feature delivery."
       },
       {
-        key : "Teamwork",
-        desc: "Excersized Collaboration skills in Development Environment"
+        key: "Agile Collaboration",
+        desc: "Collaborated in an agile team environment on code reviews, sprint planning, and architecture."
+      },
+    ]
+  },
+  {
+    subject: "Software Engineer Intern",
+    company: "Blackstone (BXTI)",
+    dateRange: "2026",
+    bullets: [
+      {
+        key: "Front-End Engineering",
+        desc: "Engineered responsive, dynamic user interfaces using Next.js and TypeScript to enhance web application performance."      
+      },
+      {
+        key: "Back-End Systems & APIs",
+        desc: "Maintained and optimized server-side logic ensuring reliable data flow and system stability."      
+      },
+      {
+        key: "Technical Leadership",
+        desc: "Led a developer team through full sprints, guiding real-time feature development and code reviews."
       },
     ]
   },
