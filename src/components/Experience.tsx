@@ -22,7 +22,7 @@ export default function Experience() {
         <h3 className='text-xl sm:text-3xl font-semibold mb-3 flex-shrink-0'>Experience</h3>
         
         {/* flex-1 takes remaining height, overflow-y-auto handles scrolling */}
-        <div className='flex-1 overflow-y-auto min-h-0 p-3 flex flex-col gap-4 border border-orange'>
+        <div className='flex-1 overflow-y-auto min-h-0 p-3 flex flex-col gap-4'>
           {experienceInfo.map((item, index) => {
             return (
               <ExperienceBlock 
