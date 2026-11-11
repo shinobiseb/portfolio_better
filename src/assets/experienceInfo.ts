@@ -4,7 +4,7 @@ export const experienceInfo : IExperience[] = [
   {
     subject: "Software Engineer",
     company: "QuickSlot Health",
-    dateRange: "2026 – Present",
+    dateRange: "May 2026 – June 2026",
     bullets: [
       {
         key: "Front-End Architecture",
@@ -27,7 +27,7 @@ export const experienceInfo : IExperience[] = [
   {
     subject: "Software Engineer Intern",
     company: "Blackstone (BXTI)",
-    dateRange: "2026",
+    dateRange: "Jan 2026",
     bullets: [
       {
         key: "Front-End Engineering",
