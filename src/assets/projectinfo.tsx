@@ -69,12 +69,6 @@ export const projects: projectProps[] = [
     misc: false
   },
   {
-    title: 'Simple Time Calculator',
-    link: 'https://simple-time-calculator.netlify.app/',
-    tags: ['HTML/CSS', 'JavaScript', 'Misc.', 'Utility'],
-    misc: true
-  },
-  {
     title: 'Weather App',
     link: 'https://shinobiseb.github.io/weather-api-app-2/',
     tags: ['Front-end', 'API', 'Utility'],
@@ -84,6 +78,18 @@ export const projects: projectProps[] = [
     title: 'Clip Site',
     link: 'https://sketch-mp4-clip.vercel.app/',
     tags: ['Front-end', 'Search', 'Svelte'],
+    misc: true
+  },
+  {
+    title: 'PodPy',
+    link: 'https://github.com/shinobiseb/podpy/',
+    tags: ['Front-end', 'Search', 'Svelte'],
+    misc: true
+  },
+  {
+    title: 'Time Calculator',
+    link: 'https://simple-time-calculator.netlify.app/',
+    tags: ['HTML/CSS', 'JavaScript', 'Misc.', 'Utility'],
     misc: true
   },
 ];
